@@ -10,7 +10,7 @@ const Project = () => {
             the jewelry store's website. when placing an order, the customer's
             data is sent to our email for communication using the nodemailer
             library on node.js. currently updating the website
-            <a class="demo" href="https://jovial-boba-0be04f.netlify.app/ ">
+            <a class="demo" href="https://jewelry-testapp.netlify.app/ ">
               {" "}
               demo
             </a>
@@ -28,7 +28,7 @@ const Project = () => {
             to do the site. localstorage is used to store tasks
             <a
               class="demo"
-              href="https://main--kaleidoscopic-sherbet-b8435f.netlify.app/"
+              href="https://todo-testapp.netlify.app/"
             >
               {" "}
               demo
