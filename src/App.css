@@ -1,38 +1,62 @@
-.App {
-  text-align: center;
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@font-face {
+  font-family: "Casual Regular";
+  src: url("./fonts/Casual-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Mona Sans Extrabold';
+  src: url("./fonts/Mona-Sans-ExtraBoldWideItalic.otf") format('opentype');
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: 'Mona Sans LightWide';
+  src: url("./fonts/Mona-Sans-LightWide.otf") format('opentype');
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+body {
+  background: rgb(238, 238, 238);
+  font-family: 'Mona Sans LightWide';
+
 }
 
-.App-link {
-  color: #61dafb;
+h1 {
+  font-family: 'Mona Sans Extrabold';
+  font-weight: 200;
+  font-size: 50px;
+  color: rgb(223,14,14);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+p {
+  color: rgb(141, 141, 141);
+  font-size: 15px;
+}
+
+a {
+  color: rgb(223,14,14);
+  font-family: "Casual Regular";
+  font-style: italic;
+  font-weight: 200;
+  font-size: 30px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+em {
+  text-decoration: underline;
+  text-decoration-color: rgb(223,14,14);
+  /* color: rgb(223,14,14); */
+  
 }
