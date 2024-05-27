@@ -9,9 +9,8 @@ const Project = () => {
           <p>
             the jewelry store's website. when placing an order, the customer's
             data is sent to our email for communication using the nodemailer
-            library on node.js. currently updating the website
+            library on node.js. currently updating the website 
             <a class="demo" href="https://jewelry-testapp.netlify.app/ ">
-              {" "}
               demo
             </a>
             <br />
@@ -40,6 +39,22 @@ const Project = () => {
         </article>
       </div>
       <div className=" mt-10 border border-red-500 rounded-lg p-3">
+        <h3>Test Website</h3>
+        <article>
+          <p>
+          A basic website created as a test assignment.
+            <a class="demo" href="https://ppweraq.github.io/testWeb/">
+              {" "}
+              demo
+            </a>
+            <br />
+            <em className="mr-4">React</em>{" "}
+            <em className="mr-4">Gulp</em>{" "}
+            <em className="mr-4">Scss</em>
+          </p>
+        </article>
+      </div>
+      <div className=" mt-10 border border-red-500 rounded-lg p-3">
         <h3>Web3 Wallet</h3>
         <article>
           <p>
@@ -57,22 +72,14 @@ const Project = () => {
           </p>
         </article>
       </div>
-      <div className=" mt-10 border border-red-500 rounded-lg p-3">
+      {/* <div className=" mt-10 border border-red-500 rounded-lg p-3">
         <h3>Portfolio For The Photographer</h3>
         <article>
           <p>
             soon
-            {/* <a class="demo" href="">
-              {" "}
-              demo
-            </a>
-            <br />
-            <em className="mr-4">Next JS</em>{" "}
-            <em className="mr-4">TypeScript</em>{" "}
-            <em className="mr-4">Tailwind</em> <em className="mr-4">Web3 JS</em> */}
           </p>
         </article>
-      </div>
+      </div> */}
     </div>
   );
 };
