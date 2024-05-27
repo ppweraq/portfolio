@@ -7,7 +7,11 @@ module.exports = {
     './src/*.jsx'
   ],
   theme: {
-    extend: {},
+    extend: {
+      screens: {
+        'custom-sm': {'max': '620px'},
+      }
+    },
   },
   plugins: [],
 }
