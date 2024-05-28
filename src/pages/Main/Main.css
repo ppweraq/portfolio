@@ -1,0 +1,14 @@
+:root {
+    --rotate-x: 0deg;
+    --rotate-y: 0deg;
+  }
+  
+  .py-80 {
+    perspective: 1000px; /* Добавьте это для улучшения эффекта параллакса */
+  }
+  
+  main {
+    transform: rotateX(var(--rotate-x)) rotateY(var(--rotate-y));
+    transition: transform 0.1s; /* Добавьте плавность */
+  }
+  
